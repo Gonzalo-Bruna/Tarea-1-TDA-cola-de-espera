@@ -34,9 +34,6 @@ void * first(List *);
 //retorna el dato del nodo siguiente al current
 void * next(List *);
 
-//retorna el dato del nodo anterior al current
-void * prev(List *);
-
 //inserta al final de la lista
 void pushBack(List *, void*);
 

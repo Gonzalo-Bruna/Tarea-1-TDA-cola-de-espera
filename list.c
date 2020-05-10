@@ -46,17 +46,6 @@ void * next(List * list){
 
 }
 
-void * prev(List * list){
-
-    if(list && list->head && list->current && list->current->prev){
-        list->current = list->current->prev;
-        return list->current->data;
-    }
-
-    return NULL;
-
-}
-
 void pushBack(List * list, void* data){
 
     if( list == NULL ) return;
