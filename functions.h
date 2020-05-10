@@ -52,7 +52,7 @@ void intentarEmparejamiento5v5();
 //esta funcion elimina el jugador asociado al id que se ingrese por parametro
 int eliminarListaEspera(List *, int);
 
-//
+//muestra a los jugadores en ambas listas de espera, en caso de no haber jugadores en una cola, lo indicará en la pantalla
 void mostrarJugadoresEnEspera(List *, List *);
 
 //funcion que comprueba si existe un jugador en alguna de las dos listas, de existir retorna 0, caso contrario retorna 1
