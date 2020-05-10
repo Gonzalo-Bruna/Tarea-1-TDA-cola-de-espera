@@ -35,14 +35,6 @@ void * first(List * list){
 
 }
 
-void * last(List * list){
-
-    if(!list->head) return NULL;
-    list->current = list->tail;
-    return list->tail->data;
-
-}
-
 void * next(List * list){
 
     if(list && list->head && list->current && list->current->next){

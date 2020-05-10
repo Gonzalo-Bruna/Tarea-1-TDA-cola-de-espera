@@ -31,9 +31,6 @@ Node * createNode(void * data);
 //retorna el primer dato de la lista
 void * first(List *);
 
-//retorna el ultimo dato de la lista
-void * last(List *);
-
 //retorna el dato del nodo siguiente al current
 void * next(List *);
 
