@@ -25,7 +25,8 @@ int main (){
 
         switch(opcion){
 
-            case 0:return 0;
+            case 0: printf("\nGracias por probar nuestro sistema de emparejamiento!\n");
+            return 0;
             case 1: ingresarJugadoresDesdeArchivo(v2, v5);
             system("cls");
             break;
